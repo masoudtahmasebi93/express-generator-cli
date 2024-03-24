@@ -1,0 +1,20 @@
+const express = require('express');
+const router = express.Router();
+const $$model$$Controller = require('../controllers/$$model$$');
+
+// POST /$$model$$ - Create a new $$model$$
+router.post('/', $$model$$Controller.create$$MODEL$$);
+
+// GET /$$model$$ - Retrieve all $$model$$
+router.get('/', $$model$$Controller.getAll$$MODEL$$s);
+
+// GET /$$model$$/:id - Retrieve a single $$model$$ by its ID
+router.get('/:id', $$model$$Controller.get$$MODEL$$ById);
+
+// PUT /$$model$$/:id - Update a $$model$$ by its ID
+router.put('/:id', $$model$$Controller.update$$MODEL$$);
+
+// DELETE /$$model$$/:id - Delete a $$model$$ by its ID
+router.delete('/:id', $$model$$Controller.delete$$MODEL$$);
+
+module.exports = router;

@@ -1,0 +1,39 @@
+{
+  "name": "express-generator-cli",
+  "version": "1.0.2",
+  "description": "a cli with generator functionality for express.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/masoudtahmasebi93/express-generator-cli.git"
+  },
+  "keywords": [
+    "express.js",
+    "cli",
+    "generator"
+  ],
+  "author": "Masoud Tahmasebi",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/masoudtahmasebi93/express-cli/issues"
+  },
+  "bin": {
+    "express-generator-cli": "index.js"
+  },
+  "homepage": "https://github.com/masoudtahmasebi93/express-cli#readme",
+  "dependencies": {
+    "@inquirer/checkbox": "^2.2.0",
+    "@inquirer/confirm": "^3.1.0",
+    "@inquirer/input": "^2.1.0",
+    "@inquirer/prompts": "^4.3.0",
+    "@inquirer/select": "^2.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
